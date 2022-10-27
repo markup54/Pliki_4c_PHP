@@ -1,0 +1,9 @@
+#container {
+    width: 800px;
+    margin: 0 auto;
+}
+#strona{
+    font-size: 150%;
+    text-align: center;
+    color: brown;
+}
