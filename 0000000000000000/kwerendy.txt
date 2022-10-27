@@ -1,0 +1,9 @@
+SELECT `zespol1`, `zespol2`, `wynik`, `data_rozgrywki` FROM `rozgrywka` WHERE `zespol1` LIKE 'EVG'
+
+SELECT `imie`, `nazwisko` FROM `zawodnik` WHERE `pozycja_id` = 3
+
+SELECT zawodnik.id, `nazwisko`,pozycja.nazwa FROM `zawodnik`,pozycja where zawodnik.pozycja_id = pozycja.id AND zawodnik.id < 4
+
+DROP TABLE ` liga `
+
+
